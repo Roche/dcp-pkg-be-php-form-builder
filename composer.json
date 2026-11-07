@@ -1,8 +1,8 @@
 {
-  "name": "dcp/form-builder",
+  "name": "open-dcp/form-builder",
   "description": "DCP Form Builder",
-  "version": "0.3.1",
   "type": "library",
+  "license": "Apache-2.0",
   "require": {
     "spatie/laravel-data": "^4.18"
   },
