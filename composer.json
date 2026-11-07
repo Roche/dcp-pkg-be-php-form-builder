@@ -1,32 +1,35 @@
 {
-    "name": "dcp/form-builder",
-    "description": "DCP Form Builder",
-    "version": "x.x.x",
-    "type": "library",
-    "require": {
-        "spatie/laravel-data": "^4.18"
-    },
-    "autoload": {
-        "psr-4": {
-            "Dcp\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Ivo Kuzov",
-            "email": "ivo.kuzov@businesspartner.roche.com"
-        }
-    ],
-    "require-dev": {
-        "phpunit/phpunit": "^12.5",
-        "orchestra/testbench": "^10.8"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Dcp\\Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "test": "phpunit"
+  "name": "dcp/form-builder",
+  "description": "DCP Form Builder",
+  "version": "0.3.0-alpha.0",
+  "type": "library",
+  "require": {
+    "spatie/laravel-data": "^4.18"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dcp\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "DCP Core Team",
+      "email": "info@open-dcp.ai"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^12.5",
+    "orchestra/testbench": "^10.8"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dcp\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "support": {
+    "source": "https://github.com/Roche/dcp-pkg-be-php-form-builder.git"
+  }
 }
